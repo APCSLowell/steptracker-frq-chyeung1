@@ -1,19 +1,22 @@
 import java.util.ArrayList;
-public class StepTracker
+ public class StepTracker
 {
  int a;
  int steps;
  int active;
+ int day;
  /* to be implemented here */
  public StepTracker(int activeSteps){
   a = activeSteps;
   steps = 0;
   active = 0;
+  day = 0;
  }
 
- public void addDailySteps(int steps){
-  if(steps >= a) active+=1;
-  this.steps+=steps;
+ public void addDailySteps(int plussteps){
+  if(plussteps >= a) active+=1;
+  steps+=plussteps;
+  day++;
  }
 
  public int activeDays(){
@@ -21,8 +24,8 @@ public class StepTracker
  }
 
  public double averageSteps(){
-  if(activeDays() > 0)
-  return this.steps/activeDays();
+  if(day > 0)
+  return steps/day;
   return 0;
  }
 } 
