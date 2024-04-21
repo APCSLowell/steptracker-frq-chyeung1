@@ -1,10 +1,10 @@
 import java.util.ArrayList;
  public class StepTracker
 {
- int a;
- int steps;
- int active;
- int day;
+ private int a;
+ private int steps;
+ private int active;
+ private int day;
  /* to be implemented here */
  public StepTracker(int activeSteps){ 
   a = activeSteps;
