@@ -10,8 +10,8 @@ public class StepTracker
  }
 
  public void addDailySteps(int steps){
-  a+=steps;
   if(steps >= 10000) active+=1;
+  a+=steps;
  }
 
  public int activeDays(){
