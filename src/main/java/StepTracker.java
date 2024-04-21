@@ -5,7 +5,7 @@ public class StepTracker
  int steps;
  int active;
  /* to be implemented here */
- public StepTracker(int activesSteps){
+ public StepTracker(int activeSteps){
   a = activeSteps;
   steps = 0;
   active = 0;
