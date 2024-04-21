@@ -6,7 +6,7 @@ import java.util.ArrayList;
  int active;
  int day;
  /* to be implemented here */
- public StepTracker(int activeSteps){
+ public StepTracker(int activeSteps){ 
   a = activeSteps;
   steps = 0;
   active = 0;
