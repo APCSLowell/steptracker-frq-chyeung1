@@ -6,9 +6,6 @@ public class StepTracker
  /* to be implemented here */
  public StepTracker(int steps){
   a = steps;
-  if(steps >= 10000)
-  active = 1;
-  else
   active = 0;
  }
 
