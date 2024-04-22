@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
  public double averageSteps(){
   if(day > 0)
-  return steps/day;
+  return (double)steps/day;
   return 0;
  }
 } 
